@@ -22,19 +22,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="BestBuy" />
+        <module name="Amazon" />
+        <module name="Bestbuy" />
         <module name="CNN" />
         <module name="eBay" />
         <module name="Generic" />
+        <module name="NYTimes" />
         <module name="TDBank" />
         <module name="UnitedHealthCare" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Amazon" target="1.5" />
       <module name="BestBuy" target="1.5" />
+      <module name="Bestbuy" target="1.5" />
+      <module name="BRACNet" target="1.5" />
       <module name="CNN" target="1.5" />
       <module name="eBay" target="1.5" />
       <module name="Generic" target="1.5" />
+      <module name="NYTimes" target="1.5" />
       <module name="TDBank" target="1.5" />
       <module name="UnitedHealthCare" target="1.5" />
       <module name="WebApp-Automation" target="1.5" />
