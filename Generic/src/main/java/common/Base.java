@@ -59,6 +59,17 @@ public void setUp(String url){
 
     }
 
+    public void typeByXpathClick(String locator,String Value)
+    {
+        driver.findElement(By.xpath(locator)).click();
+        //driver2.findElement(By.xpath("//*[@id='loginbutton']")).click();
+    }
+
+    public void typeByXpathValue(String locator,String Value)
+    {
+        driver.findElement(By.xpath(locator)).sendKeys(Value);
+        //driver2.findElement(By.xpath("//*[@id='loginbutton']")).click();
+    }
 
 
     public void sleepFor(int sec)throws InterruptedException {

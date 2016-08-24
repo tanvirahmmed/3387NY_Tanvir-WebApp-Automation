@@ -26,7 +26,7 @@
         <module name="Bestbuy" />
         <module name="CNN" />
         <module name="eBay" />
-        <module name="Facebook" />
+        <module name="FaceBook" />
         <module name="Generic" />
         <module name="NYTimes" />
         <module name="TDBank" />
@@ -40,6 +40,7 @@
       <module name="BRACNet" target="1.5" />
       <module name="CNN" target="1.5" />
       <module name="eBay" target="1.5" />
+      <module name="FaceBook" target="1.5" />
       <module name="Facebook" target="1.5" />
       <module name="Generic" target="1.5" />
       <module name="NYTimes" target="1.5" />

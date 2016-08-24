@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com.facebook</artifactId>
-
     <dependencies>
         <dependency>
             <groupId>3387NY_Tanvir-Web-Application-Automation-Framework</groupId>
