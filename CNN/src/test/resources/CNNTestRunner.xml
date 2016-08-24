@@ -9,11 +9,11 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="firefox"/>
     <parameter name="browserVersion" value="46.0.1"/>
-    <parameter name="url" value="http://www.bestbuy.com"/>
+    <parameter name="url" value="http://www.cnn.com"/>
 
-    <test name = "Bestbuy Member login">
+    <test name = "CNN News View">
         <classes>
-            <class name="home.page.MemberLogin"/>
+            <class name="home.page.NewsView"/>
         </classes>
 
     </test>

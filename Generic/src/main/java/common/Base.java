@@ -32,7 +32,14 @@ public void setUp(String url){
     }
 
     public void clickByCss(String locator){
+
         driver.findElement(By.cssSelector(locator)).click();
+    }
+
+    public void clickByXpath(String locator){
+
+        driver.findElement(By.xpath(locator)).click();
+        //driver.findElement(By.xpath("//*[@id='nav']/div[2]/div[2]/a[3]")).click();
     }
 
 
@@ -44,6 +51,12 @@ public void setUp(String url){
 
     public void typeById(String locator, String value){
         driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+    }
+
+    public void typeByXpath(String locator, String value){
+
+        driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+
     }
 
 

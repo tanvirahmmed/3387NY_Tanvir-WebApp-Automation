@@ -14,7 +14,6 @@
     <test name = "Best By Search">
         <classes>
             <class name="home.page.Search"/>
-            <class name="home.page.MemberLogin"/>
         </classes>
 
     </test>

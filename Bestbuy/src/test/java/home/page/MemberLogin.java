@@ -9,7 +9,6 @@ import org.junit.Test;
 public class MemberLogin extends Base {
 
     @Test
-
     public void MemberLogin() throws InterruptedException {
         clickByCss("#user link-text");
        // typeByCss("#gh-search-input", "hp laptop");
