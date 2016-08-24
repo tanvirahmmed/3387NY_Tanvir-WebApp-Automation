@@ -12,7 +12,7 @@ public class login extends Base {
     public void NewsLinkView() throws InterruptedException {
 
         typeByXpathValue("//*[@id='email']","rinko.ewu@gmail.com");
-        typeByXpathValue("//*[@id='pass']","rinko11435");
+        typeByXpathValue("//*[@id='pass']","");
         clickByXpath("//*[@id='loginbutton']");
         sleepFor(15);
     }
