@@ -35,9 +35,17 @@ public void setUp(String url){
         driver.findElement(By.cssSelector(locator)).click();
     }
 
+
+
     public void typeByCss(String locator, String value){
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
+
+
+    public void typeById(String locator, String value){
+        driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+    }
+
 
 
     public void sleepFor(int sec)throws InterruptedException {
