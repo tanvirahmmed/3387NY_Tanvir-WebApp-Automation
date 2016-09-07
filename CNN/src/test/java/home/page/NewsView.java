@@ -18,6 +18,7 @@ public class NewsView extends Base {
         //test by Sifat
         //test by Nahreen
         //test by Ranin
+        //test by Ahmmed
     }
 
 
