@@ -15,6 +15,9 @@ public class NewsView extends Base {
 
 
         sleepFor(15);
+        //test by Sifat
+        //test by Nahreen
+        //test by ferdous
     }
 
 
